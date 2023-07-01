@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+/* navbar */
+
+.navFlex {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 0 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navHome_Cart {
+    display: flex;
+    gap: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+    text-decoration: none;
+    color: white
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a.active {
+    text-decoration: underline;
+    color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* heading text */
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* productFlex */
+
+.productFlex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 0 5rem;
+}
+
+
+/* outLine */
+
+.outLine {
+    width: 300px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+
+/* img css  */
+
+img {
+    width: 100%;
+    height: 453px;
+}
+
+
+/* all button css */
+
+.Btn {
+    width: 100%;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+
+/* summary  */
+
+.cartContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartSummary {
+    border: 1px solid red;
+    width: 25%;
+    background-color: black;
+    color: white;
+}
+
+.cartSummary h2 {
+    text-align: center;
+}
+
+.seperator {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px 0 10px;
+}
+
+.seperator-column {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px 0 10px;
+}
+
+.Btn2 {
+    background-color: white;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    padding: 1rem;
+    cursor: pointer;
+    width: 80%;
+    margin-left: 10%;
 }
